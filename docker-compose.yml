@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  db-demo:
+    image: mysql/mysql-server:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'admin'
+      MYSQL_ROOT_PASSWORD: 'admin'
+    ports:
+      - '3307:3306'
+    expose:
+      - '3307'
+    volumes:
+      - mysql-db-demo:/var/lib/mysql
+volumes:
+  mysql-db-demo:
