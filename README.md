@@ -1,5 +1,7 @@
 # Authorization blog
-## Prerequisites
+
+## Blog: [spring-security-protect-user-specific-resources-using-pre-and-post-authorization](https://nagarjun-repala.medium.com/springboot-security-protect-user-specific-resources-using-pre-and-post-authorization-enabled-a53c984a38cc)
+### Prerequisites
 Make, Docker, Maven, Java
 
 To run the application follow below commands
